@@ -11,7 +11,7 @@
     "start:frontend": "vite preview",
     "start:backend": "node backend/server.js",
     "build": "npm run build:frontend",
-    "start": "npm run build && concurrently \"npm run start:frontend\" \"npm run start:backend\""
+    "start": "npm run build && concurrently \"npm run start:frontend\" \"npm run start:backend\"",
     "install:prod": "npm install --omit=dev",
     "start": "node backend/server.js"
   },
